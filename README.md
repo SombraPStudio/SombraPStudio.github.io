@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website.
 
-##About
+## About
 This portfolio showcases my projects, technical skills, services, and pricing information. It was designed with a focus on responsiveness, usability, and clean design.
 
 ## Technologies Used
@@ -22,4 +22,4 @@ This portfolio showcases my projects, technical skills, services, and pricing in
 [Visit my portfolio](https://sombrapstudio.github.io/)
 
 ## Author
-ShadowPStudio
+SombraPStudio
