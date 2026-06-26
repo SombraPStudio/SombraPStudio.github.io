@@ -11,7 +11,7 @@ This portfolio showcases my projects, technical skills, services, and pricing in
 - JavaScript
 - Responsive Design
 
-##Features
+## Features
 - Responsive user interface
 - Project showcase
 - Skills section
