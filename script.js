@@ -212,7 +212,6 @@ const popup = document.getElementById("InfoPopUp");
 const openBtn = document.getElementById("InfoDominio");
 const closeBtn = document.getElementById("closeInfo");
 
-/* Abrir popup */
 openBtn.addEventListener("click", () => {
 popup.classList.add("active");
 
