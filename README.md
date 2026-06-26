@@ -21,5 +21,5 @@ This portfolio showcases my projects, technical skills, services, and pricing in
 ## Live Demo
 [Visit my portfolio](https://sombrapstudio.github.io/)
 
-##Author
+## Author
 ShadowPStudio
