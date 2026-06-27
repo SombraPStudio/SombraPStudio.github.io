@@ -88,7 +88,6 @@
             <div class="skills-list">
                 <div class="skill-item reveal reveal-delay-1">
                     <div class="skill-header">
-
                         <span class="skill-name">Figma / UI Design</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="imgSkills"><path d="M18 7V5a1 1 0 0 0-1-1H6.5a.5.5 0 0 0-.4.8l4.5 6a2 2 0 0 1 0 2.4l-4.5 6a.5.5 0 0 0 .4.8H17a1 1 0 0 0 1-1v-2"/></svg>
                         <span class="skill-pct">90%</span>
@@ -97,13 +96,21 @@
             </div>
             <div class="skill-item reveal reveal-delay-2">
                 <div class="skill-header">
-                    <span class="skill-name">HTML / CSS</span>
+                    <span class="skill-name">HTML</span>
                     <img src="https://cdn.xerion.cloud/files/xrn-sombra/Logos/htmlIcon.png" alt="" class= "imgSkills">
                     <span class="skill-pct">88%</span>
                 </div>
                 <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
             </div>
-            <div class="skill-item reveal reveal-delay-2">
+            <div class="skill-item reveal reveal-delay-3">
+                <div class="skill-header">
+                    <span class="skill-name">Css</span>
+                    <img src="https://i.ibb.co/8Dx7bTzt/icons8-css-100.png" alt="" class="imgSkills">
+                    <span class="skill-pct">80%</span>             
+                </div>
+                <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item reveal reveal-delay-4">
                 <div class="skill-header">
                     <span class="skill-name">JavaScript</span>
                     <img src="https://i.ibb.co/d4XBKp9H/icons8-java-script-50.png" alt="" class="imgSkills">
@@ -111,7 +118,7 @@
                 </div>
                 <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
             </div>
-            <div class="skill-item reveal reveal-delay-3">
+            <div class="skill-item reveal reveal-delay-5">
                     <div class="skill-header">
                         <span class="skill-name">Discord Bot</span>
                         <img src="https://cdn.xerion.cloud/files/xrn-sombra/Logos/DiscordIcon.png" alt="" class="imgSkills">
@@ -119,15 +126,7 @@
                     </div>
                     <div class="skill-track"><div class="skill-fill" data-width="68"></div></div>
             </div>
-            <div class="skill-item reveal reveal-delay-3">
-                <div class="skill-header">
-                    <span class="skill-name">Branding / Identidad (simple)</span>
-                    <img src="https://cdn.xerion.cloud/files/xrn-sombra/Logos/brandinglogo.png" alt="" class="imgSkills">
-                    <span class="skill-pct">60%</span>
-                </div>
-                <div class="skill-track"><div class="skill-fill" data-width="60"></div></div>
-            </div>
-            <div class="skill-item reveal reveal-delay-4">
+            <div class="skill-item reveal reveal-delay-6">
                 <div class="skill-header">
                     <span class="skill-name">Animación / Motion</span>
                     <img src="https://cdn.xerion.cloud/files/xrn-sombra/Logos/AnimationsIcon.png" alt="" class="imgSkills"> 
@@ -200,17 +199,24 @@
         <div class="plans-grid">
         <div class="plan reveal reveal-delay-1">
             <div class="plan-badge">BÁSICO</div>
-            <div class="plan-name">Prox</div>
+            <div class="plan-name">Landing</div>
             <div class="plan-price-line">
-                <strong>Prox</strong>
+                <strong>99$</strong>
                 según complejidad · 50% al iniciar · 50% al finalizar · entrega en 7 días
             </div>
             <ul class="plan-features">
-                <li>Landing page de una sección</li>
+                <li>Landing page profesional</li>
                 <li>Diseño responsivo mobile-first</li>
-                <li>Formulario de contacto</li>
+                <li>Integración con Google Maps</li>
+                <li>Integración con WhatsApp</li>
                 <li>1 ronda de revisiones</li>
-                <li>Dominio y hosting no incluidos</li>
+                <li>Dominio no incluido
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="popularImg" id="InfoDominio"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                </li>
+                <li>Funciones adicionales bajo presupuesto personalizado</li>
+                <button class="plan-btn" data-plan="Landing" onclick="contactPlan(this)">
+                    <span>Quiero este plan →</span>
+                </button>
             </ul>
         </div>
         <div class="plan featured reveal reveal-delay-2">
@@ -218,13 +224,18 @@
             <div class="plan-badge">ESTÁNDAR · POPULAR <img src="https://cdn.xerion.cloud/files/xrn-sombra/Logos/PopularIcon.png" alt="" class="popularImg"></div>
             <div class="plan-name">Studio</div>
             <div class="plan-price-line">
-                <strong>Pers.</strong>
+                <strong>Dsd 149$</strong>
                 según complejidad · 50% al iniciar · 50% al finalizar · entrega en 15 días
             </div>
                 <ul class="plan-features">
-                    <li>Web completa multi-sección</li>
+                    <li>Todo lo del plan "Landing" +</li>
+                    <li>Web profesional multi-sección</li>
                     <li>Diseño UI/UX personalizado</li>
-                    <li>Animaciones y transiciones</li>
+                    <li>Diseño responsivo para móvil y PC</li>
+                    <li>Animaciones y transiciones modernas</li>
+                    <li>Optimizacion SEO basico</li>
+                    <li>Integración con WhatsApp y Google Maps</li>
+                    <li>Integración con WhatsApp</li>
                     <li>3 rondas de revisiones</li>
                     <li>1 semana soporte post-entrega</li>
                     <li>Dominio no incluido
@@ -232,31 +243,78 @@
                     </li>
                     <li>Cobro extra segun necesidades fuera de estas</li>
                 </ul>
-                <button class="plan-btn" data-plan="Standar - Personalizado" onclick="contactPlan(this)">
+                <button class="plan-btn" data-plan="Standar" onclick="contactPlan(this)">
                     <span>Quiero este plan →</span>
                 </button>
             </div>
             <div class="plan reveal reveal-delay-3">
                 <div class="plan-badge">EXPERTO</div>
-                <div class="plan-name">Prox</div>
+                <div class="plan-name">Premium</div>
                 <div class="plan-price-line">
-                <strong>Prox</strong>
+                <strong>Dsd 299$</strong>
                 según complejidad · 50% al iniciar · 50% al finalizar · entrega en 30 días
                 </div>
                 <ul class="plan-features">
+                    <li>Todo lo del plan "Studio" +</li>
                     <li>Web premium con diseño exclusivo</li>
                     <li>Animaciones complejas custom</li>
                     <li>Sistema de diseño completo</li>
-                    <li>Integraciones (CRM, pagos, etc.)</li>
-                    <li>Revisiones ilimitadas</li>
+                    <li>Integraciones personalizadas</li>
+                    <li>Hasta 5 rondas de revisiones</li>
                     <li>1 meses soporte prioritario</li>
-                    <li>Dominio y hosting no incluidos</li>
+                    <li>Dominio no incluido
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="popularImg" id="InfoDominio"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+                    </li>
+                    <li>Cobro extra segun necesidades fuera de estas</li>
+                    <button class="plan-btn" data-plan="Premium" onclick="contactPlan(this)">
+                        <span>Quiero este plan →</span>
+                    </button>
                 </ul>
+            </div>
+        </div>
+        <h2 class="section-heading reveal reveal-delay-1">Invierte en el mantenimiento<br>de tu pagina.</h2>
+        <div class="plans-grid">
+        <div class="plan reveal reveal-delay-1">
+            <div class="plan-badge">BÁSICO</div>
+            <div class="plan-name">Basic Care</div>
+            <div class="plan-price-line">
+                <strong>29$/mes</strong>
+            </div>
+            <ul class="plan-features">
+                <li>Monitorización básica de la web</li>
+                <li>Corrección de errores menores</li>
+                <li>Actualización de textos e imágenes (hasta 2 cambios al mes)</li>
+                <li>Soporte por email o WhatsApp</li>
+                <li>Copia de seguridad mensual</li>
+                <li>Asistencia técnica básica</li>
+                <button class="plan-btn" data-plan="Mantenimiento basico" onclick="contactPlan(this)">
+                    <span>Quiero este plan →</span>
+                </button>
+            </ul>
+        </div>
+        <div class="plan featured reveal reveal-delay-2">
+            <div class="plan-glow"></div>
+            <div class="plan-badge">ESTÁNDAR · POPULAR <img src="https://cdn.xerion.cloud/files/xrn-sombra/Logos/PopularIcon.png" alt="" class="popularImg"></div>
+            <div class="plan-name">Premium Care</div>
+            <div class="plan-price-line">
+                <strong>49$/mes</strong>
+            </div>
+                <ul class="plan-features">
+                    <li>Todo lo incluido en el plan Básico</li>
+                    <li>Cambios de contenido prioritarios</li>
+                    <li>Hasta 5 modificaciones al mes</li>
+                    <li>Optimización y revisión de rendimiento</li>
+                    <li>Monitorización avanzada</li>
+                    <li>Soporte prioritario</li>
+                    <li>Asesoramiento técnico y mejoras continuas</li>
+                </ul>
+                <button class="plan-btn" data-plan="Manteminiento premium" onclick="contactPlan(this)">
+                    <span>Quiero este plan →</span>
+                </button>
             </div>
         </div>
     </div>
 </section>
-
 <section id="contact">
     <div class="contact-inner">
         <div class="avail-badge reveal">
